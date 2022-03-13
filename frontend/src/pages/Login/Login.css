@@ -1,0 +1,81 @@
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Didact Gothic';
+}
+div.complete {
+    margin-top: 80px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px 10px 40px;
+    text-align: center;
+    width: 350px;
+    height: 510px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-style: none;
+    border-radius: 25px;
+}
+#username , #password {
+    border-radius: 20px;
+    border-style: none;
+    padding: 8px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #CEE5D0;
+    box-shadow: 2px 2px #6b6b6bb2;
+    width: 235px;
+    
+}
+#username:hover , #password:hover {
+    font-size: 19px;
+    width: 250px;
+}
+#username:focus , #password:focus {
+    outline: none;
+}
+h1 {
+    font-family: "georama","sans-sefif";
+}
+input.submit {
+    width: 250px;
+    border: none;
+    padding: 9px;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px #8f8f8ffb;
+}
+input.submit:hover{
+    font-size: 20px;
+    width: 260px;
+}
+input.submit:active{
+    background-color: #133544;
+}
+span.donthaveacc {
+    font-size: 19px;
+}
+span.orsignup {
+    color: #133544;
+}
+a.forgotpass:link , a.forgotpass:visited, a.forgotpass:active {
+    font-size: 15px;
+    color: #49363b;
+    text-decoration: none;
+
+}
+a.forgotpass:hover  {
+    color: black;
+}
+a.signup:link, a.signup:visited, a.signup:active {
+    text-decoration: none;
+    color: #581e2f;
+}
+a.signup:hover{
+    color: black;
+}
+img.fb:hover , img.goo:hover , img.github:hover {
+    width: 45px;
+}
