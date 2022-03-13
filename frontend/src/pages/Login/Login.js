@@ -5,7 +5,7 @@ import github from '../Login/github.png';
 import goo from '../Login/goo.png'
 export default function Login() {
   return (
-    <div>
+    <div className="login">
         <div className="complete">
         <h1>LOG IN</h1>
         <br />
