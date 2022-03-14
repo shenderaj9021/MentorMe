@@ -3,7 +3,7 @@ import "../Navbar/Navbar.css";
 export default function Navbar() {
   return (
     <div>
-            This is navbar
+            <h1>Hi</h1> 
     </div>
   )
 }
