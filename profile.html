@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Profile page</title>
+    <link href='https://fonts.googleapis.com/css?family=Georama|Didact Gothic' rel='stylesheet'>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style>
+        body {
+            background: url(bg.jpg) no-repeat center center fixed;
+            background-size: cover;
+            height: 100%;
+            font-family: 'Didact Gothic';
+        }
+
+        div.complete {
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 70px;
+            padding: 20px 10px 40px;
+            text-align: center;
+            width: 90%;
+            height: auto;
+            background-color: rgba(255, 255, 255, 0.4);
+            border-style: none;
+            border-radius: 25px;
+            height: 1350px;
+        }
+
+        .fname {
+            font-size: 23px;
+            color: #133544;
+        }
+        .field {
+            border-radius: 20px;
+            border-style: none;
+            padding: 8px;
+            text-align: center;
+            font-size: 18px;
+            background-color: #CEE5D0;
+            box-shadow: 2px 2px #6b6b6bb2;
+            width: 100%;
+            margin-bottom: 20px;
+            height: 40px;
+        }
+
+
+        .field:focus{
+            outline: none;
+        }
+
+        input.submit {
+            width: 250px;
+            border: none;
+            padding: 9px;
+            font-size: 20px;
+            border-radius: 20px;
+            background-color: black;
+            color: white;
+            box-shadow: 2px 2px #8f8f8ffb;
+        }
+
+        input.submit:hover {
+            font-size: 22px;
+            width: 260px;
+        }
+
+        input.submit:active {
+            background-color: #133544;
+        }
+
+        a.signup:hover {
+            color: black;
+        }
+        .bio{
+            height: 150px;
+        }
+        .titlee{
+            text-align: center;
+            font-size: 40px;
+            color: black;
+        }
+        .dtype{
+            text-align: left;
+            color: #581e2f;
+            height: 50px;
+        }
+        .opt1{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div className="container">
+        <div className="row titlee">
+            <div className="text-center"><br>Profile page <br></div>
+            
+        </div>
+    </div>
+    
+    <form action="">
+    <div className="complete">
+        <div className="container">
+            <div className="row">
+                <h3 className="dtype">Personal details</h3>
+                <br>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" style="text-align: left;">
+                    <div className="row">
+                        <div className="col-4 fname">
+                            First name</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="firstname" id="firstname" required>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Date of birth</div>
+                        <div className="col-8">
+                            <input type="date" className="field" name="dob" id="dob" required>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Local Address</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="localadd" id="localadd" required>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-4 fname">
+                            State</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="state" id="state" required>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" style="text-align: left;">
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Last name</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="lastname" id="lastname" required>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Age
+                        </div>
+                        <div className="col-8">
+                            <select className="field" name="age" id="age">
+                                <option className="opt1" value="none">--select--</option>
+                                <option className="optt" value="1">1</option>
+                                <option className="optt" value="2">2</option>
+                                <option className="optt" value="3">3</option>
+                                <option className="optt" value="4">4</option>
+                                <option className="optt" value="4">4</option>
+                                <option className="optt" value="5">5</option>
+                                <option className="optt" value="6">6</option>
+                                <option className="optt" value="7">7</option>
+                                <option className="optt" value="8">8</option>
+                                <option className="optt" value="9">9</option>
+                                <option className="optt" value="10">10</option>
+                                <option className="optt" value="11">11</option>
+                                <option className="optt" value="12">12</option>
+                                <option className="optt" value="13">13</option>
+                                <option className="optt" value="14">14</option>
+                                <option className="optt" value="15">15</option>
+                                <option className="optt" value="16">16</option>
+                                <option className="optt" value="17">17</option>
+                                <option className="optt" value="18">18</option>
+                                <option className="optt" value="19">19</option>
+                                <option className="optt" value="20">20</option>
+                                <option className="optt" value="21">21</option>
+                                <option className="optt" value="22">22</option>
+                                <option className="optt" value="23">23</option>
+                                <option className="optt" value="24">24</option>
+                                <option className="optt" value="25">25</option>
+                                <option className="optt" value="26">26</option>
+                                <option className="optt" value="27">27</option>
+                                <option className="optt" value="28">28</option>
+                                <option className="optt" value="29">29</option>
+                                <option className="optt" value="30">30</option>
+                                <option className="optt" value="31">31</option>
+                                <option className="optt" value="32">32</option>
+                                <option className="optt" value="33">33</option>
+                                <option className="optt" value="34">34</option>
+                                <option className="optt" value="35">35</option>
+                                <option className="optt" value="36">36</option>
+                                <option className="optt" value="37">37</option>
+                                <option className="optt" value="38">38</option>
+                                <option className="optt" value="39">39</option>
+                                <option className="optt" value="40">40</option>
+                                <option className="optt" value="41">41</option>
+                                <option className="optt" value="42">42</option>
+                                <option className="optt" value="43">43</option>
+                                <option className="optt" value="44">44</option>
+                                <option className="optt" value="45">45</option>
+                                <option className="optt" value="46">46</option>
+                                <option className="optt" value="47">47</option>
+                                <option className="optt" value="48">48</option>
+                                <option className="optt" value="49">49</option>
+                                <option className="optt" value="50">50</option>
+                                <option className="optt" value="51">51</option>
+                                <option className="optt" value="52">52</option>
+                                <option className="optt" value="53">53</option>
+                                <option className="optt" value="54">54</option>
+                                <option className="optt" value="55">55</option>
+                                <option className="optt" value="56">56</option>
+                                <option className="optt" value="57">57</option>
+                                <option className="optt" value="58">58</option>
+                                <option className="optt" value="59">59</option>
+                                <option className="optt" value="60">60</option>
+                                <option className="optt" value="61">61</option>
+                                <option className="optt" value="62">62</option>
+                                <option className="optt" value="63">63</option>
+                                <option className="optt" value="64">64</option>
+                                <option className="optt" value="65">65</option>
+                                <option className="optt" value="60">60</option>
+                                <option className="optt" value="61">61</option>
+                                <option className="optt" value="62">62</option>
+                                <option className="optt" value="63">63</option>
+                                <option className="optt" value="64">64</option>
+                                <option className="optt" value="65">65</option>
+                                <option className="optt" value="66">66</option>
+                                <option className="optt" value="67">67</option>
+                                <option className="optt" value="68">68</option>
+                                <option className="optt" value="69">69</option>
+                                <option className="optt" value="70">70</option>
+                                <option className="optt" value="71">71</option>
+                                <option className="optt" value="72">71</option>
+                                <option className="optt" value="73">73</option>
+                                <option className="optt" value="74">74</option>
+                                <option className="optt" value="75">75</option>
+                                <option className="optt" value="76">76</option>
+                                <option className="optt" value="77">77</option>
+                                <option className="optt" value="78">78</option>
+                                <option className="optt" value="79">79</option>
+                                <option className="optt" value="80">80</option>
+                                <option className="optt" value="81">81</option>
+                                <option className="optt" value="82">82</option>
+                                <option className="optt" value="83">83</option>
+                                <option className="optt" value="84">84</option>
+                                <option className="optt" value="85">85</option>
+                                <option className="optt" value="86">86</option>
+                                <option className="optt" value="87">87</option>
+                                <option className="optt" value="88">88</option>
+                                <option className="optt" value="89">89</option>
+                                <option className="optt" value="90">90</option>
+                                <option className="optt" value="91">91</option>
+                                <option className="optt" value="92">92</option>
+                                <option className="optt" value="93">93</option>
+                                <option className="optt" value="94">94</option>
+                                <option className="optt" value="95">95</option>
+                                <option className="optt" value="96">96</option>
+                                <option className="optt" value="97">97</option>
+                                <option className="optt" value="98">98</option>
+                                <option className="optt" value="99">99</option>
+                                <option className="optt" value="100">100</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-4 fname">
+                            City</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="city" id="city" required>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Country</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="country" id="country" required>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <h3 className="dtype">Contact details</h3>
+                <br>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" style="text-align: left;">
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Phone number</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="phoneno" id="phoneno" required>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" style="text-align: left;">
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Email address</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="email" id="email" required>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <h3 className="dtype">Educational details</h3>
+                <br>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" style="text-align: left;">
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Currently pursuing education</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="crntedu" id="crntedu" required>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Current standard/year</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="crntstdyr" id="crntstdyr" required>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" style="text-align: left;">
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Name of institution (current) </div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="instiname" id="instiname" required>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Passout or Graduation year</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="passoutgradyear" id="passoutgradyear" required>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <h3 className="dtype">Professional details</h3>
+                <br>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" style="text-align: left;">
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Profession</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="profession" id="profession" required>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Currently working at </div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="crntwork" id="crntwork" required>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" style="text-align: left;">
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Work experience </div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="workexp" id="workexp" required>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Number of students mentored</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="studentsmentored" id="studentsmentored" required>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <h3 className="dtype">About you</h3>
+                <br>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" style="text-align: left;">
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Interests</div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="intrsts" id="intrsts" required>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6" style="text-align: left;">
+                    <div className="row">
+                        <div className="col-4 fname">
+                            Certifications </div>
+                        <div className="col-8">
+                            <input type="text" className="field" name="certification" id="certification" required>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="text-align: left;">
+                    <div className="row">
+                        <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 fname">
+                            Tell us something about yourself</div>
+                        <div className="col-8 col-sm-8 col-md-8 col-lg-10 col-xl-10 col-xxl-10">
+                            <textarea style="text-align: left;" className="field bio" name="bio" id="bio" required> </textarea>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <br>
+                    <input className="submit" type="submit" title="submit" value="Submit">
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>

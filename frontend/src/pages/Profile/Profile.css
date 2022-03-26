@@ -1,0 +1,83 @@
+body {
+    background: url(bg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Didact Gothic';
+}
+
+div.completeprofile{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    padding: 20px 10px 40px;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-style: none;
+    border-radius: 25px;
+    height: 1350px;
+}
+
+.fname {
+    font-size: 23px;
+    color: #133544;
+}
+.field {
+    border-radius: 20px;
+    border-style: none;
+    padding: 8px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #CEE5D0;
+    box-shadow: 2px 2px #6b6b6bb2;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+
+.field:focus{
+    outline: none;
+}
+
+input.submit {
+    width: 250px;
+    border: none;
+    padding: 9px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px #8f8f8ffb;
+}
+
+input.submit:hover {
+    font-size: 22px;
+    width: 260px;
+}
+
+input.submit:active {
+    background-color: #133544;
+}
+
+a.signup:hover {
+    color: black;
+}
+.bio{
+    height: 150px;
+}
+.titlee{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.dtype{
+    text-align: left;
+    color: #581e2f;
+    height: 50px;
+}
+.opt1{
+    display: none;
+}

@@ -4,7 +4,6 @@ import "../Signup/Signup.css"
 export default function Signup() {
   return (
     <div className="Home">
-        
         <div class="complete">
         <h1>SIGN UP</h1>
         <br />
